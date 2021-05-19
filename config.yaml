@@ -9,6 +9,11 @@ disableKinds: ["taxonomy", "taxonomyTerm"]
 enableEmoji: true
 pygmentsUseClasses: true
 assetDir: "static"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 
 ## Generic theme parameters:
 Params:
